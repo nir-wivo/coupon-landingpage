@@ -27,20 +27,22 @@
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
-    height: 700px;
+    height: 100%;
     width: 700px;
-    border-radius: 50%;
-    border: 10px solid rgba(255, 255, 255, 0.103);
-
-    box-shadow: 0 0 100px rgba(0, 0, 0, 0.397);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.90);
 }
 
 .logo{
     width: 300px;
-    margin-bottom: 20px;
+}
+.smalltitle{
+font-size: 10px;
+margin-bottom: 40px;
+font-weight: 100;
 }
 .content{
-    font-size: 40px
+    font-size: 40px;
+    text-transform: uppercase;
 }
 
 .timer{
@@ -135,25 +137,30 @@
 
 
 .endcontent{
-    margin-top: 40px;
+    margin-top: 20px;
     font-size: 20px;
     color: gray;
 }
 .back{
     padding: 10px 20px;
-    background-color: rgba(255, 255, 255, 0.336);
+    background-color: rgba(255, 255, 255);
     color: black;
     border-radius: 0;
     text-decoration: none;
+    text-transform: uppercase;
     margin-top: 30px;
     width: 50%;
     text-align: center;
     font-size: 25px;
     font-weight: 100;
+    border-radius: 5px;
+    box-shadow: 0 0 100px rgba(255, 255, 255, 0.40);
+    transition: 0.5s;
+
 }
 .back:hover{
-    transition: 0.5s;
-     background-color: white ;
+     background-color: rgb(141, 141, 141) ;
+     transform: scale(0.95);
 }
 
 @media only screen and (max-width: 600px) {
@@ -168,9 +175,12 @@
         font-size: 20px;
     }
     .section{
-        border-radius: 50px;
+
         height: auto;
-        padding: 100px 0;
+        padding: 40px 0;
+    }
+    .endcontent{
+        font-size: 12px;
     }
   }
 
