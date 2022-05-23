@@ -14,9 +14,9 @@
     align-items: center;
     justify-content: center;
     background-image: url(assest/bg.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
 
 }
 .section{
@@ -33,7 +33,6 @@
 }
 
 .logo{
-        
         width: 100%;
         padding: 0px 20%;
         background: white;
@@ -42,11 +41,14 @@
 font-size: 10px;
 margin-bottom: 40px;
 font-weight: 100;
+
 }
 .content{
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
+    margin-left: 10%;
+margin-right: 10%;
 }
 .small{
     font-size: 30px;
