@@ -399,3 +399,11 @@ font-weight: 100;
         margin-left: 80%;
    }
 }
+
+
+.hours{
+    display: none !important;
+}
+.minutes{
+    display: flex !important;
+}
