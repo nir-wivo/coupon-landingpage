@@ -13,7 +13,7 @@
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background-image: url(assest/s5iesvafnc.png);
+    background-image: url(assest/bg.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,7 +33,10 @@
 }
 
 .logo{
-    width: 300px;
+        
+        width: 100%;
+        padding: 0px 20%;
+        background: white;
 }
 .smalltitle{
 font-size: 10px;
@@ -42,10 +45,15 @@ font-weight: 100;
 }
 .content{
     font-size: 40px;
+    text-align: center;
     text-transform: uppercase;
+}
+.small{
+    font-size: 30px;
 }
 
 .timer{
+    display: none;
     margin-top: 30px;
 }
 /**/
