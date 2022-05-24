@@ -205,6 +205,9 @@ margin-right: 10%;
     .endcontent{
         font-size: 12px;
     }
+    .topimg{
+        width: 100% !important;
+    }
   }
 
   body {
