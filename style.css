@@ -38,15 +38,21 @@
 .smalltitle{
 font-size: 50px;
 font-weight: 100;
+margin-top: 100px;
 color: #fb00d4;
-filter: drop-shadow(0 0 10px rgba(0, 0, 0, 1));
+filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
 }
 .content{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 200;
     text-transform: uppercase;
-    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 1));
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 00));
 
+}
+
+
+.content:hover{
+    color: #fb00d4;
 }
 
 .timer{
@@ -69,6 +75,7 @@ filter: drop-shadow(0 0 10px rgba(0, 0, 0, 1));
     height: .75em;
     line-height: 1;
     padding: .25em;
+    font-size: 60px;
     overflow: hidden;
   }
   
@@ -84,6 +91,7 @@ filter: drop-shadow(0 0 10px rgba(0, 0, 0, 1));
   .flip-card .bottom-flip {
     background-color: white;
     display: flex;
+    
     align-items: flex-end;
     border-bottom-right-radius: .1em;
     border-bottom-left-radius: .1em;
@@ -392,4 +400,19 @@ filter: drop-shadow(0 0 10px rgba(0, 0, 0, 1));
 
 .end{
     margin-top: 100px;
+    animation: moveup 2s infinite;
+}
+.end:hover{
+
+}
+@keyframes moveup {
+    0%{
+        transform: translateY(10px);
+    }
+   50%{
+    transform: translateY(-10px);
+   }
+   100%{
+    transform: translateY(10px);
+   }
 }
