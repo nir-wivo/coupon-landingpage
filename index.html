@@ -2,126 +2,81 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
 
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-  <script src="script.js" defer></script>
-  <script type="text/javascript">
-    (function () {
-      // https://dashboard.emailjs.com/admin/account
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<script src="script.js" defer></script>
 
-      emailjs.init('user_jnDjIpEcTAF1mkiOa3k1d');
-
-
-    })();
-  </script>
-  <script type="text/javascript">
-    window.onload = function () {
-      document.getElementById('contact-form').addEventListener('submit', function (event) {
-        event.preventDefault();
-        // generate a five digit number for the contact_number variable
-        const templateParams = {
-          to_name: "nir@wivo.co.il",
-        };
-        emailjs.sendForm('service_lcw4bdk', 'template_t0groee', this, "user_jnDjIpEcTAF1mkiOa3k1d")
-          .then(function () {
-            document.getElementsByClassName('success')[0].style.opacity = "1";
-            document.getElementsByClassName('submit')[0].style.display = "none";
-            console.log('SUCCESS!');
-          }, function (error) {
-            console.log('FAILED...', error);
-
-          });
-      });
-    }
-  </script>
-  <title>מגה ספורט</title>
+    <title>Wiply</title>
 </head>
 
 <body>
-  <div class="pyro">
-    <div class="before"></div>
-    <div class="after"></div>
-  </div>
-
-  <div class="fullpage">
-    <div class="section">
-      <img class="topimg"
-        src="https://res.cloudinary.com/dngwrudqa/image/upload/v1653387187/H57813_3_HARDWARE_Photography_Detail_View_1_transparent_ghlaiv.png"
-        width="150" alt="">
-
-      <a href="htmegasport.com"></a><img class="logo"
-        src="https://res.cloudinary.com/dngwrudqa/image/upload/v1653307982/1626845183_kf4pbb.png" alt="">
-      <div class="content small">הפרטים שלך התקבלו</div>
-      <div class="smalltitle">זכית בכדור מתנה</div>
-      <img
-        src="https://res.cloudinary.com/dngwrudqa/image/upload/v1653387181/H57813_2_HARDWARE_Photography_Back_Center_View_transparent_bt1rkq.png"
-        width="150" alt="">
-      <div class="timer">
-        <div class="container">
-          <div class="container-segment hours">
-            <div class="segment">
-              <div class="flip-card" data-hours-tens>
-                <div class="top">0</div>
-                <div class="bottom">0</div>
-              </div>
-              <div class="flip-card" data-hours-ones>
-                <div class="top">0</div>
-                <div class="bottom">0</div>
-              </div>
-            </div>
-
-            <div class="segment-title hours">Hours</div> <!-- css hide-->
-          </div>
-          <div class="container-segment ">
-            <div class="segment">
-              <div class="flip-card" data-minutes-tens>
-                <div class="top">0</div>
-                <div class="bottom">0</div>
-              </div>
-              <div class="flip-card" data-minutes-ones>
-                <div class="top">0</div>
-                <div class="bottom">0</div>
-              </div>
-            </div>
-
-            <div class="segment-title minutes">Minutes</div>
-          </div>
-          <div class="container-segment">
-            <div class="segment">
-              <div class="flip-card" data-seconds-tens>
-                <div class="top">0</div>
-                <div class="bottom">0</div>
-              </div>
-              <div class="flip-card" data-seconds-ones>
-                <div class="top">0</div>
-                <div class="bottom">0</div>
-              </div>
-            </div>
-            <div class="segment-title">Seconds</div>
-          </div>
-        </div>
+    <div class="pyro">
+        <div class="before"></div>
+        <div class="after"></div>
       </div>
-      <div class="content smaller">בקרוב תקבל sms עם קוד הטבה לקבלת המתנה ברשת חנויות מגה ספורט.
-      </div>
-      <p style="font-size:15px">על מנת לקבל את הפרס נא אשרו את התקנון והדיוור</p>
-      <form id="contact-form">
-        <div class="checkbox">
-          <input type="checkbox" required>
-          <label for="scales">מאשר קבלת תוכן שיווקי בהודעות SMS ממגה ספורט</label>
-          <div class="checkbox">
-            <input type="checkbox" required>
-            <label for="scales">מאשר/ת כי קראתי <a href="https://wivo.co.il/wp-content/uploads/2022/05/תקנון-חידון.docx"
-                download>תקנון</a> פעילות המשחק ומסכים לתנאים</label>
-          </div>
+      
+    <div class="fullpage">
+        <div class="section">
+          
+            <div class="smalltitle">תודה רבה</div>
+            <div class="content">קיבלנו את הפרטים שלך</div>
+            <div class="content">ההגרלה תתקיים</div>
+            <div class="content">בסוף הכנס</div>
+            <hr>
+            <div class="content">בשעה 15:00</div>
+            <hr>
+            <div class="timer">
+                <div class="container">
+                    <div class="container-segment hours">
+                      <div class="segment">
+                        <div class="flip-card" data-hours-tens>
+                          <div class="top">0</div>
+                          <div class="bottom">0</div>
+                        </div>
+                        <div class="flip-card" data-hours-ones>
+                          <div class="top">0</div>
+                          <div class="bottom">0</div>
+                        </div>
+                      </div>
+                      
+                      <div class="segment-title hours">שעות</div> <!-- css hide-->
+                    </div>
+                    <div class="container-segment ">
+                      <div class="segment">
+                        <div class="flip-card" data-minutes-tens>
+                          <div class="top">0</div>
+                          <div class="bottom">0</div>
+                        </div>
+                        <div class="flip-card" data-minutes-ones>
+                          <div class="top">0</div>
+                          <div class="bottom">0</div>
+                        </div>
+                      </div>
+              
+                      <div class="segment-title minutes">דקות</div>
+                    </div>
+                    <div class="container-segment">
+                      <div class="segment">
+                        <div class="flip-card" data-seconds-tens>
+                          <div class="top">0</div>
+                          <div class="bottom">0</div>
+                        </div>
+                        <div class="flip-card" data-seconds-ones>
+                          <div class="top">0</div>
+                          <div class="bottom">0</div>
+                        </div>
+                      </div>
+                      <div class="segment-title">שניות</div>
+                    </div>
+                  </div>
+            </div>
+            <a class="end" href="https://wiply.com"><img src="assest/logo.png" width="100px"></a>
         </div>
-        <input type="submit" value="שלח" class="submit"/>
-      </form>
-      <p class="success">הפרטים נשמרו</p>
+        
     </div>
 </body>
 
