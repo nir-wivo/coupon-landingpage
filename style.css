@@ -66,6 +66,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2);
     border-radius: .1em;
     color: black;
+    
   }
   
   .top,
@@ -77,6 +78,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     padding: .25em;
     font-size: 60px;
     overflow: hidden;
+    font-size: 40px !important;
   }
   
   .top,
@@ -127,7 +129,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
   
   .container {
     display: flex;
-    gap: .5em;
+    gap: .25em;
     justify-content: center;
   }
   
@@ -160,10 +162,10 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     .fullpage{
         background-position: right;
         background-size: cover;
-        background-image: url(assest/bg-mobile.png);
+        background-image: url(assest/center.png);
     }
     .content{
-        font-size: 20px;
+        font-size: 30px;
     }
     .section{
         background-size: cover;
