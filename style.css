@@ -12,7 +12,7 @@
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background-image: url(assest/bg.png);
+    background-image: url(assest/bg.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@
     justify-content: center;
     flex-direction: column;
     background-position: bottom;
-    background-image: url(assest/center.png);
+    background-image: url(assest/center.jpg);
     background-size: cover;
     color: white;
     height: 100%;
@@ -162,7 +162,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     .fullpage{
         background-position: right;
         background-size: cover;
-        background-image: url(assest/center.png);
+        background-image: url(assest/center.jpg);
     }
     .content{
         font-size: 30px;
