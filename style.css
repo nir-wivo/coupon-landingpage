@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: 'rubik';
     font-size: 2.25rem;
+    overflow: hidden;
+
   }
 
 .fullpage{
@@ -15,15 +17,18 @@
     background-image: url(assest/bg.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    
+
 
 }
+
+
 .section{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-position: bottom;
+    background-position: center;
     background-image: url(assest/center.jpg);
     background-size: cover;
     color: white;
@@ -174,6 +179,12 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     }
     .endcontent{
         font-size: 12px;
+    }
+    .end{
+        margin: 0;
+    }
+    .end img{
+        width: 100px;
     }
   }
 
@@ -404,9 +415,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     margin-top: 100px;
     animation: moveup 2s infinite;
 }
-.end:hover{
 
-}
 @keyframes moveup {
     0%{
         transform: translateY(10px);
@@ -417,4 +426,9 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
    100%{
     transform: translateY(10px);
    }
+}
+
+.remember{
+    font-size: 15px;
+    font-weight: 100;
 }
