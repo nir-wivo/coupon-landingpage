@@ -433,4 +433,5 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
 .remember{
     font-size: 15px;
     font-weight: 100;
+    color: white;
 }
