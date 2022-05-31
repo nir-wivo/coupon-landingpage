@@ -418,9 +418,11 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     display: flex !important;
 }
 
-.end{
-    margin-top: 100px;
-    animation: moveup 2s infinite;
+.end img{
+    position: fixed;
+    left: 5px;
+    bottom: 5px;
+    width: 60px !important;
 }
 
 @keyframes moveup {
