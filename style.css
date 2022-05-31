@@ -8,6 +8,7 @@
     font-size: 2.25rem;
   }
 
+
 .fullpage{
     background-color: white;
     display: flex;
@@ -171,7 +172,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
 }
 @media only screen and (max-width: 600px) {
     *{
-        font-size: 1.5rem;
+        font-size: 20px !important;
     }
     .fullpage{
         background-position: right;
@@ -179,21 +180,31 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
         background-image: url(assest/center.jpg);
     }
     .content{
-        font-size: 30px;
+        font-size: 16px !important;
+    }
+    .smalltitle{
+        font-size: 30px !important;
     }
     .section{
         background-size: cover;
         height: 100vh;
-        padding: 40px 0;
+        padding: 40px 20px;
     }
     .endcontent{
-        font-size: 12px;
+        font-size: 10px !important;
     }
     .end{
         margin: 0;
     }
     .end img{
         width: 100px;
+    }
+    .remember{
+        font-size: 16px !important;
+        text-align: center;
+    }
+    .container{
+        transform: scale(0.7);
     }
   }
 
