@@ -38,6 +38,12 @@ body{
     width: 700px;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.90);
 }
+.reward{
+    width: 30%;
+    transition: 0.5s;
+    z-index: 99999999;
+    animation: scale 1.3s infinite;
+}
 
 .logo{
     width: 300px;
@@ -45,7 +51,6 @@ body{
 .smalltitle{
 font-size: 50px;
 font-weight: 100;
-margin-top: 100px;
 color: #fb00d4;
 filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
 }
@@ -429,6 +434,19 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     transform: translateY(10px);
    }
 }
+
+@keyframes scale {
+    0%{
+        transform: scale(1);
+    }
+   50%{
+    transform: scale(1.1);
+}
+   100%{
+    transform: scale(1);
+}
+}
+
 
 .remember{
     font-size: 15px;
