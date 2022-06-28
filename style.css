@@ -8,6 +8,9 @@
     font-size: 2.25rem;
   }
 
+  html{
+    touch-action: none;
+}
 
 .fullpage{
     background-color: white;
@@ -34,8 +37,9 @@ body{
     justify-content: center;
     flex-direction: column;
     background-position: center;
-    background-image: url(assest/center.jpg);
+    background-image: url(assest/centerf.png);
     background-size: cover;
+    
     color: white;
     height: 100%;
     width: 600px;
@@ -545,7 +549,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     .fullpage{
         background-position: right;
         background-size: cover;
-        background-image: url(assest/center.jpg);
+        background-image: url(assest/centerf.png);
     }
     .content{
         font-size: 16px !important;
