@@ -177,65 +177,6 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     font-size: 20px;
     color: gray;
 }
-@media only screen and (max-width: 600px) {
-    *{
-        font-size: 20px !important;
-    }
-    .btn-3{
-        margin-top: 40px;
-    }
-    .fullpage{
-        background-position: right;
-        background-size: cover;
-        background-image: url(assest/center.jpg);
-    }
-    .content{
-        font-size: 16px !important;
-        width: 100%;
-        text-align: center;
-    }
-    .smalltitle{
-        font-size: 30px !important;
-    }
-    .section{
-        background-size: cover;
-        height: 100vh;
-        padding: 40px 20px;
-    }
-    .endcontent{
-        font-size: 10px !important;
-    }
-    .end{
-        margin: 0;
-    }
-    .end img{
-        width: 100px;
-    }
-    .remember{
-        font-size: 16px !important;
-        text-align: center;
-    }
-
-    .top,
-    .bottom,
-    .flip-card .top-flip,
-    .flip-card .bottom-flip {
-      height: .75em;
-      line-height: 1;
-      padding: .25em;
-      overflow: hidden;
-      font-size: 30px !important;
-    }
-    .flip-card {
-        min-width: 0px;
-      }
-      .segment-title {
-        font-size: 10px !important;
-    }
-    .container{
-        gap: 10px;
-    }
-  }
 
   hr{
       margin: 10px 0px;
@@ -524,7 +465,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     line-height: 42px;
     padding: 0;
     border: none;
-    animation: moveup 2s infinite;
+    animation: moveup 3s infinite;
     
   }
   .btn-3 span {
@@ -590,3 +531,67 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     width: 100%;
   }
   
+  @media only screen and (max-width: 600px) {
+    *{
+        font-size: 20px !important;
+    }
+    .btn-3 {
+        margin-top: 40px;
+    }
+    .btn-3 span{
+        padding: 5px 10px;
+        font-size: 20px !important;
+    }
+    .fullpage{
+        background-position: right;
+        background-size: cover;
+        background-image: url(assest/center.jpg);
+    }
+    .content{
+        font-size: 16px !important;
+        width: 100%;
+        text-align: center;
+    }
+    .smalltitle{
+        font-size: 30px !important;
+    }
+    .section{
+        background-size: cover;
+        height: 100vh;
+        padding: 40px 20px;
+        justify-content: flex-start;
+    }
+    .endcontent{
+        font-size: 10px !important;
+    }
+    .end{
+        margin: 0;
+    }
+    .end img{
+        width: 100px;
+    }
+    .remember{
+        font-size: 16px !important;
+        text-align: center;
+    }
+
+    .top,
+    .bottom,
+    .flip-card .top-flip,
+    .flip-card .bottom-flip {
+      height: .75em;
+      line-height: 1;
+      padding: .25em;
+      overflow: hidden;
+      font-size: 30px !important;
+    }
+    .flip-card {
+        min-width: 0px;
+      }
+      .segment-title {
+        font-size: 10px !important;
+    }
+    .container{
+        gap: 10px;
+    }
+  }
