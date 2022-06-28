@@ -69,6 +69,11 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     width: 100%;
     text-align: center;
 }
+.small{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
 
 
 .content:hover{
@@ -438,8 +443,9 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
 
 
 .remember{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 100;
+    margin-top: 30px;
     color: white;
 }
 .custom-btn {
