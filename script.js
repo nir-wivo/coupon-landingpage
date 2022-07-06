@@ -1,4 +1,4 @@
-const countToDate = new Date("2022-08-01T00:00:00");
+const countToDate = new Date("2022-07-30T00:00:00");
 let previousTimeBetweenDates
 setInterval(() => {
   const currentDate = new Date()
