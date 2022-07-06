@@ -606,7 +606,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
       line-height: 1;
       padding: .25em;
       overflow: hidden;
-      font-size: 30px !important;
+      font-size: 25px !important;
     }
     .flip-card {
         min-width: 0px;
