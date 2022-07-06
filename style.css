@@ -56,7 +56,7 @@ body{
 }
 
 .reward{
-    width: 30%;
+    width: 70%;
     transition: 0.5s;
     z-index: 99999999;
     animation: scale 1.3s infinite;
@@ -68,7 +68,7 @@ body{
 .smalltitle{
 font-size: 50px;
 font-weight: 100;
-color: #fb00d4;
+color: #023782;
 filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
 }
 .content{
@@ -86,12 +86,10 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 24px;
+    padding: 0px;
 }
 
 
-.content:hover{
-    color: #fb00d4;
-}
 
 .timer{
     margin-top: 30px;
@@ -108,7 +106,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
 
   }
   .container-segment:hover{
-    filter: drop-shadow(0 2px  20px rgba(68, 162, 190, 1));
+    filter: drop-shadow(0 2px  20px rgb(52, 36, 190));
 
   }  
   .top,
@@ -582,7 +580,8 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
         background-size: contain;
         height: 100vh;
         padding: 40px 20px;
-        justify-content: flex-start;
+        display: flex;
+        justify-content: center;
     }
     .endcontent{
         font-size: 10px !important;
