@@ -60,6 +60,8 @@ body{
     transition: 0.5s;
     z-index: 99999999;
     animation: scale 1.3s infinite;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8));
+
 }
 
 .logo{
@@ -83,8 +85,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     text-align: center;
 }
 .small{
-    margin-top: 20px;
-    margin-bottom: 20px;
+
     font-size: 24px;
     padding: 0px;
 }
@@ -456,7 +457,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
 .remember{
     font-size: 17px;
     font-weight: 100;
-    margin-top: 30px;
+    margin-top: 0px;
     color: white;
 }
 .custom-btn {
@@ -566,7 +567,9 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     .fullpage{
         background-position: right;
         background-size: cover;
-        background-image: url(assest/centerf.png);
+        background-image: url(assest/grass.jpg);
+        align-items: flex-start;
+        padding-top: 20px;
     }
     .content{
         font-size: 16px !important;
@@ -578,11 +581,12 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     }
     .section{
         background-size: contain;
-        height: 100vh;
-        padding: 40px 20px;
+        height: auto;
+        padding: 10px 20px;
         display: flex;
-        justify-content: center;
-    }
+        justify-content: flex-start;
+      
+        }
     .endcontent{
         font-size: 10px !important;
     }
