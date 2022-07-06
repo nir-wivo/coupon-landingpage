@@ -47,10 +47,10 @@ body{
         width: 600px;
     max-width: 90%;
     max-height: 90%;
-    background-color: rgba(0, 0, 0, 0.829);
-    box-shadow: 0 4px 24px -1px rgba(32, 32, 32, 0.2);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 24px -1px rgba(32, 32, 32, 1);
     outline: 6px solid rgba(255, 255, 255, 0.26);
-    backdrop-filter: blur(0);
+    backdrop-filter: blur(20px);
     border-radius: 25px;
 }
 
