@@ -59,6 +59,7 @@ body{
     transition: 0.5s;
     z-index: 99999999;
     animation: scale 1.3s infinite;
+    filter: invert(1) brightness(45);
 
 }
 
