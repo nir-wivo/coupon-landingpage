@@ -51,3 +51,10 @@ function flip(flipCard, newNumber) {
   })
   flipCard.append(topFlip, bottomFlip)
 }
+
+function addDynamicLink() {
+  const queryParams = new URLSearchParams(window.location.search);
+      const link = queryParams.get('link');
+      document.getElementById('smallLink').innerText = "https://mega1.wiply-dev.xyz/?" + link;
+}
+addDynamicLink()
