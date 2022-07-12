@@ -59,7 +59,7 @@ body{
     width: 70%;
     transition: 0.5s;
     z-index: 99999999;
-    filter: invert(1) brightness(45) drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
+
 
 }
 
