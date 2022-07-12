@@ -48,9 +48,10 @@ body{
         width: 600px;
     max-width: 90%;
     max-height: 90%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(255,255,255, 0.3);
     box-shadow: 0 4px 24px -1px rgba(32, 32, 32, 1);
     outline: 6px solid rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(40px);
     border-radius: 25px;
 }
 
@@ -566,18 +567,17 @@ filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
     border: 2px solid white;
     border-radius: 20px;
     position: relative;
-    width: 80%;
+    width: 90%;
     padding: 20px;
-    margin: 0 10%;
   }
   .title-box{
-    font-size: 20px;
+    font-size: 15px !important;
     position: absolute;
     top: -15px;
     z-index: 9;
     background-color: white;
+    padding: 0 10px;
     border: 2px solid white;
-    padding: 2px 20px;
     font-weight: bold;
     color: black;
     border-radius: 20px;
@@ -660,6 +660,10 @@ filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
         justify-content: flex-start;
       
         }
+        .small{
+          font-size: 14px !important;
+          margin-bottom: 0px;
+        }
     .endcontent{
         font-size: 10px !important;
     }
@@ -699,7 +703,24 @@ filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
     .facebook{
       margin-top: 5px;
     }
+    #smallLink{
+      font-size: 15px !important;
+    }
+    .saveicon{
+      width:20px;
+      right: 5px;
+      bottom: 25px;
+    }
+    strong{
+      font-size: 15px !important;
+    }
+    .box{
+      width: 100%;
+    }
+    .share{
+      font-size: 15px !important;
+    }
   }
   strong{
-    font-size: 22px;
+    font-size: 20px;
   }
