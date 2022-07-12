@@ -18,7 +18,7 @@
     height: 100vh;
     align-items: center;
     justify-content: center;
-    background-image: url(assest/jpj9435mf4q.png);
+    background-image: url(assest/bgme.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;    
@@ -39,7 +39,8 @@ body{
     background-position: center;
     /* background-image: url(assest/centerf.png); */
     background-size: cover;
-    
+    backdrop-filter: blur(40px);
+
     color: white;
     height: 100%;
     width: 600px;
@@ -47,10 +48,9 @@ body{
         width: 600px;
     max-width: 90%;
     max-height: 90%;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.8);
     box-shadow: 0 4px 24px -1px rgba(32, 32, 32, 1);
     outline: 6px solid rgba(255, 255, 255, 0.26);
-    backdrop-filter: blur(20px);
     border-radius: 25px;
 }
 
@@ -59,7 +59,7 @@ body{
     transition: 0.5s;
     z-index: 99999999;
     animation: scale 1.3s infinite;
-    filter: invert(1) brightness(45);
+    filter: invert(1) brightness(45) drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
 
 }
 
@@ -69,12 +69,12 @@ body{
 .smalltitle{
 font-size: 50px;
 font-weight: 100;
-filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
+filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
 }
 #smallLink{
   font-size: 30px;
   font-weight: 100;
-  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
   }
 .content{
   padding-left:40px;
@@ -82,8 +82,9 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
   direction:rtl;
     font-size: 35px;
     font-weight: 200;
+    margin-bottom: 20px;
     text-transform: uppercase;
-    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 00));
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
     width: 100%;
     text-align: center;
 }
@@ -556,6 +557,74 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     width: 100%;
   }
   
+  
+  .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    position: relative;
+    width: 80%;
+    padding: 20px;
+    margin: 0 10%;
+  }
+  .title-box{
+    font-size: 20px;
+    position: absolute;
+    top: -15px;
+    z-index: 9;
+    background-color: white;
+    border: 2px solid white;
+    padding: 2px 20px;
+    font-weight: bold;
+    color: black;
+    border-radius: 20px;
+  }
+  .icons{
+    display: flex;
+    color: white;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+  }
+  svg{
+    width: 30px;
+    margin-bottom: 10px;
+    filter: invert(1);
+  }
+ 
+  .whatapp{
+    margin-top: 5px;
+  }
+  .save{
+    background: transparent;
+    border: none;
+    position: absolute;
+    right: 0px;
+    bottom: -20px;
+    display: flex;
+  }
+  .saveicon{
+    background: transparent;
+    width:30px;
+    filter: invert(1);
+    border: none;
+    position: absolute;
+    right: 10px;
+    bottom: 30px;
+    display: flex;
+    cursor: pointer;
+  }
+
+  .share{
+    direction: rtl;
+    font-size: 20px;
+    color: white;
+  }
+  
   @media only screen and (max-width: 600px) {
     *{
         font-size: 20px !important;
@@ -570,7 +639,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     .fullpage{
         background-position: right;
         background-size: cover;
-        background-image: url(assest/jpj9435mf4q.png);
+        background-image: url(assest/bgme.png);
         align-items: flex-start;
         background-position: center;
         padding-top: 20px;
@@ -624,4 +693,13 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     .container{
         gap: 10px;
     }
+    svg{
+      margin-bottom: 0px;
+    }
+    .facebook{
+      margin-top: 5px;
+    }
+  }
+  strong{
+    font-size: 22px;
   }
