@@ -55,8 +55,9 @@ function flip(flipCard, newNumber) {
 function addDynamicLink() {
   const queryParams = new URLSearchParams(window.location.search);
       const link = queryParams.get('link');
-      document.getElementById('smallLink').innerText = "https://mega1.wiply-dev.xyz/?" + link;
-      document.getElementsByClassName('facebook')[0].href = "https://www.facebook.com/sharer/sharer.php?u=https://mega1.wiply-dev.xyz/?" + link; 
-      document.getElementsByClassName('whatapp')[0].href = "https://api.whatsapp.com/send?text=https://mega1.wiply-dev.xyz/?" + link; 
+      const baseurl = "https://mega1.wiply-dev.xyz/?name=" + link;
+      document.getElementById('smallLink').innerText = baseurl;
+      document.getElementsByClassName('facebook')[0].href = baseurl;
+      document.getElementsByClassName('whatapp')[0].href = baseurl;
 }
 addDynamicLink()
