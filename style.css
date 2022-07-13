@@ -71,6 +71,7 @@
 font-size: 50px;
 font-weight: 100;
 filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
+  direction: rtl;
 }
 #smallLink{
   font-size: 22px;
@@ -78,6 +79,7 @@ filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
   width: 90%;
   word-wrap: break-word;
+  text-align: center;
   }
 .content{
   padding-left:40px;
