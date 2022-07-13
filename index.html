@@ -54,6 +54,7 @@
         <script>
           function save(){
             var copyText = document.getElementsByClassName("smallLink")[0].innerHTML; 
+            document.getElementsByClassName('save')[0].style.display = "none"
             console.log(copyText)
             navigator.clipboard.writeText(copyText);
             document.getElementsByClassName("smallLink")[0].innerHTML = "הלינק נשמר"; 
