@@ -75,6 +75,7 @@ filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
   font-size: 26px;
   font-weight: 100;
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
+  width: 90%;
   }
 .content{
   padding-left:40px;
@@ -714,6 +715,8 @@ filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
     }
     .box{
       width: 100%;
+      margin-top: 20px;
+
     }
     .share{
       font-size: 15px !important;
