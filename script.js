@@ -55,7 +55,7 @@ function flip(flipCard, newNumber) {
 function addDynamicLink() {
   const queryParams = new URLSearchParams(window.location.search);
       const link = queryParams.get('link');
-      const baseurl = "https://mega1.wiply-dev.xyz/?ticket=" + link;
+      const baseurl = "https://mega1.wiply-dev.xyz/?link=" + link;
       const res = baseurl.replaceAll(" ","%20")
       document.getElementById('smallLink').innerText = res;
       document.getElementsByClassName('facebook')[0].href = "https://www.facebook.com/sharer/sharer.php?u=" +res
