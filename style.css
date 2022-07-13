@@ -11,7 +11,8 @@
 
   html{
     touch-action: none;
-    overflow-x: hidden;
+    overflow: hidden !important;
+
 }
 
 .fullpage{
@@ -211,6 +212,7 @@ filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
   body {
     margin: 0;
     padding: 0;
+    
     background: #000;
 }
 .pyro > .before, .pyro > .after {
@@ -236,6 +238,7 @@ filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
     -o-animation-duration: 1.25s, 1.25s, 6.25s;
     -ms-animation-duration: 1.25s, 1.25s, 6.25s;
     animation-duration: 1.25s, 1.25s, 6.25s;
+    
 }
 @-webkit-keyframes bang {
     to {
