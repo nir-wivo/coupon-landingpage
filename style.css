@@ -73,10 +73,11 @@ font-weight: 100;
 filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
 }
 #smallLink{
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 100;
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
   width: 90%;
+  word-wrap: break-word;
   }
 .content{
   padding-left:40px;
