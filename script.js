@@ -56,7 +56,7 @@ function addDynamicLink() {
   const queryParams = new URLSearchParams(window.location.search);
       const link = queryParams.get('link');
       const baseurl = "https://mega1.wiply-dev.xyz/?ticket=" + link;
-      const res = baseurl.replace(" ","%20")
+      const res = baseurl.replaceAll(" ","%20")
       document.getElementById('smallLink').innerText = res;
       document.getElementsByClassName('facebook')[0].href = "https://www.facebook.com/sharer/sharer.php?u=" +res
       document.getElementsByClassName('whatapp')[0].href = "https://api.whatsapp.com/send?text= "+ res; 
