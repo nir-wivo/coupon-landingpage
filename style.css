@@ -616,7 +616,6 @@ filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
   .saveicon{
     background: transparent;
     width:30px;
-    filter: invert(1);
     border: none;
     position: absolute;
     right: 10px;
