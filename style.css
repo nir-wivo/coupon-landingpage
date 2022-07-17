@@ -11,19 +11,19 @@
 
   html{
     touch-action: none;
-
-}
-
-.fullpage{
-    background-color: white;
-    display: flex;
-    min-height: 100vh;
-    align-items: center;
-    justify-content: center;
     background-image: url(assest/bgme.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;    
+
+}
+
+.fullpage{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+
 
 
 }
@@ -661,22 +661,14 @@ filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
         padding: 5px 10px;
         font-size: 20px !important;
     }
-    .fullpage{
-        background-position: right;
-        background-size: cover;
-        background-image: url(assest/bgme.png);
-        align-items: flex-start;
-        background-position: center;
-        padding-top: 20px;
-        padding: 20px;
-    }
+
     .content{
         font-size: 16px !important;
         width: 100%;
         text-align: center;
     }
     .smalltitle,.name{
-        font-size: 20px !important;
+        font-size: 17px !important;
     }
     .section{
         background-size: contain;
