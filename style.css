@@ -57,14 +57,14 @@
 }
 
 .logo{
-  width: 50%;
+  width: 40%;
   background-color: rgba(255, 255, 255, 0.9);
-  padding: 15px;
-  border-radius: 20px;
+  padding: 7px;
+  border-radius: 10px;
   filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.322));
 }
 .smalltitle,.name{
-font-size: 50px;
+font-size: 30px;
 font-weight: 100;
 filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
   direction: rtl;
@@ -669,6 +669,7 @@ filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
         align-items: flex-start;
         background-position: center;
         padding-top: 20px;
+        padding: 20px;
     }
     .content{
         font-size: 16px !important;
@@ -676,12 +677,12 @@ filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
         text-align: center;
     }
     .smalltitle,.name{
-        font-size: 30px !important;
+        font-size: 20px !important;
     }
     .section{
         background-size: contain;
         min-height: auto !important;
-        
+        max-width: 100vw;
         padding: 10px 20px;
         display: flex;
         justify-content: flex-start;
