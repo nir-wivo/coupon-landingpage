@@ -686,6 +686,7 @@ filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
         padding: 10px 20px;
         display: flex;
         justify-content: flex-start;
+        margin-bottom: 70px;
       
         }
         .small{
@@ -733,6 +734,10 @@ filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
     }
     #smallLink{
       font-size: 15px !important;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      
     }
     .saveicon{
       width:20px;
