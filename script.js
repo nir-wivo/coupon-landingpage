@@ -55,11 +55,13 @@ function flip(flipCard, newNumber) {
 function addDynamicLink() {
   const queryParams = new URLSearchParams(window.location.search);
   const link = queryParams.get("link");
+  const link2 = link.split("@")[0];
+  
   const name = queryParams.get("name");
   console.log("omer")
   // document.getElementsByClassName("name")[0].innerText = name;
   const random = queryParams.get("random");
-  const baseurl = "https://mega1.wiply-dev.xyz/?link=" + link;
+  const baseurl = "https://mega1.wiply-dev.xyz/?" + link2;
   const res = baseurl.replaceAll(" ", "%20");
   document.getElementById("smallLink").innerText = res;
   document.getElementsByClassName("facebook")[0].href =
