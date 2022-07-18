@@ -61,23 +61,30 @@ font-weight: 100;
 color: #fb00d4;
 filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
 }
+#smallLink{
+  font-size: 22px;
+  font-weight: 100;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
+  width: 90%;
+  word-wrap: break-word;
+  text-align: center;
+  }
 .content{
+  padding-left:40px;
+  padding-right: 40px;
+  direction:ltr;
     font-size: 35px;
     font-weight: 200;
+    margin-bottom: 20px;
     text-transform: uppercase;
-    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 00));
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.329));
     width: 100%;
     text-align: center;
 }
 .small{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 24px;
-}
 
-
-.content:hover{
-    color: #fb00d4;
+    font-size: 20px;
+    padding: 0px;
 }
 
 .timer{
@@ -599,7 +606,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
   }
 
   .share{
-    direction: rtl;
+    direction: ltr;
     font-size: 20px;
     color: white;
   }
