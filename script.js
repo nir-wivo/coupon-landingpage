@@ -60,7 +60,7 @@ function addDynamicLink() {
   const name = queryParams.get("name");
   document.getElementsByClassName("name")[0].innerText = name;
   const random = queryParams.get("random");
-  const baseurl = "https://oculus.wiplify.com?" + link2 + random;
+  const baseurl = "https://oculus.wiplify.com?" + link2 + random + '&name='+name;
   const res = baseurl.replaceAll(" ", "%20");
   document.getElementById("smallLink").innerText = res;
   document.getElementsByClassName("facebook")[0].href =
