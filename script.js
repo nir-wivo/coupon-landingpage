@@ -1,4 +1,4 @@
-const countToDate = new Date("2022-08-01T00:00:00");
+const countToDate = new Date("2022-08-20T00:00:00");
 let previousTimeBetweenDates
 setInterval(() => {
   const currentDate = new Date()
@@ -61,7 +61,7 @@ function addDynamicLink() {
   console.log("omer")
   // document.getElementsByClassName("name")[0].innerText = name;
   const random = queryParams.get("random");
-  const baseurl = "https://oculus.wiplify.com/?" + link2 + random;
+  const baseurl = "https://oculus-memory.wiplify.com/?" + link2 + random;
   const res = baseurl.replaceAll(" ", "%20");
   document.getElementById("smallLink").innerText = res;
   document.getElementsByClassName("facebook")[0].href =
