@@ -42,11 +42,14 @@
 .logo{
     width: 300px;
 }
-.smalltitle{
+.smalltitle,.name{
 font-size: 50px;
 font-weight: 100;
 color: #fb00d4;
 filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
+}
+.name{
+  text-transform: capitalize;
 }
 #smallLink{
   font-size: 22px;
@@ -634,7 +637,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
         width: 100%;
         text-align: center;
     }
-    .smalltitle{
+    .smalltitle,.name{
         font-size: 30px !important;
     }
     .section{
