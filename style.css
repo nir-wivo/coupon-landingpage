@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik:wght@300&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -7,27 +6,23 @@
     font-family: 'Rubik','Roboto', sans-serif;
     font-size: 2.25rem;
   }
-
-
+  html{
+    touch-action: none;
+}
 .fullpage{
     background-color: white;
     display: flex;
-    min-height: 100vh;
-    height: auto;
+    height: 100vh;
     align-items: center;
     justify-content: center;
     background-image: url(assest/bg1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;    
-
-
 }
-
 body{
-    overflow-x: hidden;
+    overflow: hidden;
 }
-
 .section{
     display: flex;
     align-items: center;
@@ -36,9 +31,9 @@ body{
     background-position: center;
     background-image: url(assest/centerf.png);
     background-size: cover;
-  
+    
     color: white;
-    min-height: 100vh;
+    height: 100%;
     width: 600px;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.90);
 }
@@ -48,7 +43,6 @@ body{
     z-index: 99999999;
     animation: scale 1.3s infinite;
 }
-
 .logo{
     width: 300px;
 }
@@ -65,10 +59,6 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
   width: 90%;
   word-wrap: break-word;
   text-align: center;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  cursor: pointer;
   }
 .content{
   padding-left:40px;
@@ -83,9 +73,8 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     text-align: center;
 }
 .small{
-
-    font-size: 20px;
-    padding: 0px;
+  font-size: 20px;
+  padding: 0px;
 }
 
 .timer{
@@ -100,11 +89,9 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     border-radius: .1em;
     color: black;
     min-width: 43px;
-
   }
   .container-segment:hover{
     filter: drop-shadow(0 2px  20px rgba(68, 162, 190, 1));
-
   }  
   .top,
   .bottom,
@@ -176,7 +163,6 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
         gap: .1em;
     align-items: center;
     transition: 0.5s;
-
   }
   
   .segment {
@@ -187,14 +173,11 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
   .segment-title {
     font-size: 20px;
 }
-
-
 .endcontent{
     margin-top: 20px;
     font-size: 20px;
     color: gray;
 }
-
   hr{
       margin: 10px 0px;
       width: 80%;
@@ -205,7 +188,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     background: #000;
 }
 .pyro > .before, .pyro > .after {
-    position: fixed;
+    position: absolute;
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -413,18 +396,15 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
         margin-left: 80%;
    }
 }
-
 .minutes{
     display: flex !important;
 }
-
 .end img{
     position: fixed;
     left: 5px;
     bottom: 5px;
     width: 60px !important;
 }
-
 @keyframes moveup {
     0%{
         transform: translateY(10px);
@@ -436,7 +416,6 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     transform: translateY(10px);
    }
 }
-
 @keyframes scale {
     0%{
         transform: scale(1);
@@ -448,8 +427,6 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     transform: scale(1);
 }
 }
-
-
 .remember{
     font-size: 17px;
     font-weight: 100;
@@ -476,7 +453,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
   }
 /* 3 */
 .btn-3 {
-  background: rgb(88, 8, 251);
+    background: rgb(88, 8, 251);
   background: linear-gradient(90deg, rgb(88, 8, 251) 0%, rgb(153, 41, 234) 100%);
     width: auto;
     height: auto;
@@ -493,7 +470,6 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     height: 100%;
     padding: 10px 20px;
     font-size: 30px !important;
-
   }
   .btn-3:before,
   .btn-3:after {
@@ -531,7 +507,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     content: "";
     left: 0;
     bottom: 0;
-     background: rgb(255, 255, 255);
+     background: rgb(88, 8, 251);
     transition: all 0.3s ease;
   }
   .btn-3 span:before {
@@ -638,20 +614,17 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
         font-size: 20px !important;
     }
     .btn-3 {
-        margin-top: 15px;
+        margin-top: 40px;
     }
     .btn-3 span{
-        padding: 1px 10px;
-        font-size: 15px !important;
+        padding: 5px 10px;
+        font-size: 20px !important;
     }
     .fullpage{
         background-position: right;
         background-size: cover;
         background-image: url(assest/centerf.png);
     }
-    .timer{
-      margin-top: 10px;
-  }
     .content{
         font-size: 16px !important;
         width: 100%;
@@ -662,6 +635,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     }
     .section{
         background-size: cover;
+        height: 100vh;
         padding: 40px 20px;
         justify-content: flex-start;
     }
@@ -677,9 +651,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     .remember{
         font-size: 16px !important;
         text-align: center;
-        margin-top: 0px !important;
     }
-
     .top,
     .bottom,
     .flip-card .top-flip,
@@ -698,11 +670,5 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     }
     .container{
         gap: 10px;
-    }
-    .facebook{
-      margin-top: 15px;
-    }
-    .whatapp{
-      margin-top: 15px;
     }
   }
