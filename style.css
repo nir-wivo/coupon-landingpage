@@ -8,14 +8,12 @@
     font-size: 2.25rem;
   }
 
-  html{
-    touch-action: none;
-}
 
 .fullpage{
     background-color: white;
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     align-items: center;
     justify-content: center;
     background-image: url(assest/bg1.png);
@@ -27,8 +25,7 @@
 }
 
 body{
-    overflow: hidden;
-
+    overflow-x: hidden;
 }
 
 .section{
@@ -39,9 +36,9 @@ body{
     background-position: center;
     background-image: url(assest/centerf.png);
     background-size: cover;
-    
+  
     color: white;
-    height: 100%;
+    min-height: 100vh;
     width: 600px;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.90);
 }
@@ -68,6 +65,10 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
   width: 90%;
   word-wrap: break-word;
   text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
   }
 .content{
   padding-left:40px;
@@ -204,7 +205,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     background: #000;
 }
 .pyro > .before, .pyro > .after {
-    position: absolute;
+    position: fixed;
     width: 5px;
     height: 5px;
     border-radius: 50%;
@@ -475,7 +476,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
   }
 /* 3 */
 .btn-3 {
-    background: rgb(88, 8, 251);
+  background: rgb(88, 8, 251);
   background: linear-gradient(90deg, rgb(88, 8, 251) 0%, rgb(153, 41, 234) 100%);
     width: auto;
     height: auto;
@@ -530,7 +531,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     content: "";
     left: 0;
     bottom: 0;
-     background: rgb(88, 8, 251);
+     background: rgb(255, 255, 255);
     transition: all 0.3s ease;
   }
   .btn-3 span:before {
@@ -637,17 +638,20 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
         font-size: 20px !important;
     }
     .btn-3 {
-        margin-top: 40px;
+        margin-top: 15px;
     }
     .btn-3 span{
-        padding: 5px 10px;
-        font-size: 20px !important;
+        padding: 1px 10px;
+        font-size: 15px !important;
     }
     .fullpage{
         background-position: right;
         background-size: cover;
         background-image: url(assest/centerf.png);
     }
+    .timer{
+      margin-top: 10px;
+  }
     .content{
         font-size: 16px !important;
         width: 100%;
@@ -658,7 +662,6 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     }
     .section{
         background-size: cover;
-        height: 100vh;
         padding: 40px 20px;
         justify-content: flex-start;
     }
@@ -674,6 +677,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     .remember{
         font-size: 16px !important;
         text-align: center;
+        margin-top: 0px !important;
     }
 
     .top,
@@ -694,5 +698,11 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     }
     .container{
         gap: 10px;
+    }
+    .facebook{
+      margin-top: 15px;
+    }
+    .whatapp{
+      margin-top: 15px;
     }
   }
