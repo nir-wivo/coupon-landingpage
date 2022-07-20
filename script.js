@@ -58,8 +58,7 @@ function addDynamicLink() {
   const link2 = link.split("@")[0];
   
   const name = queryParams.get("name");
-  console.log("omer")
-  // document.getElementsByClassName("name")[0].innerText = name;
+  document.getElementsByClassName("name")[0].innerText = name;
   const random = queryParams.get("random");
   const baseurl = "https://oculus-memory.wiplify.com/?" + link2 + random;
   const res = baseurl.replaceAll(" ", "%20");
