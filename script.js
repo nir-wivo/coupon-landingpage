@@ -60,12 +60,13 @@ function addDynamicLink() {
   const name = queryParams.get("name");
   document.getElementsByClassName("name")[0].innerText = name;
   const random = queryParams.get("random");
-  const baseurl = "https://oculus-memory.wiplify.com/?" + link2 + random + "&name=" + name;
-  const res = baseurl.replaceAll(" ", "%20");
-  document.getElementById("smallLink").innerText = res;
+  const nameDomain = encodeURI("&name=" + name);
+  const baseurl = "https://oculus-memory.wiplify.com/?" + link2 + random + nameDomain;
+  // const res = baseurl.replaceAll(" ", "%20");
+  document.getElementById("smallLink").innerText = baseurl;
   document.getElementsByClassName("facebook")[0].href =
-    "https://www.facebook.com/sharer/sharer.php?u=" + res;
+    "https://www.facebook.com/sharer/sharer.php?u=" + baseurl;
   document.getElementsByClassName("whatapp")[0].href =
-    "https://api.whatsapp.com/send?text=" + res.replaceAll("&", "%26");
+    "https://api.whatsapp.com/send?text=" + baseurl.replaceAll("&", "%26");
 }
 addDynamicLink();
