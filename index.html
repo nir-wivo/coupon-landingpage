@@ -41,7 +41,7 @@
         </div>
         <script> 
           function save(){
-            var copyText = document.getElementsByClassName("smallLink")[0].innerHTML; 
+            var copyText = document.getElementsByClassName("smallLink")[0].innerText; 
             document.getElementsByClassName('save')[0].style.display = "none"
             console.log(copyText)
             navigator.clipboard.writeText(copyText);
