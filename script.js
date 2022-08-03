@@ -56,7 +56,9 @@ function addDynamicLink() {
   const queryParams = new URLSearchParams(window.location.search);
   const link = queryParams.get("link");
   const link2 = link.split("@")[0];
-  
+  const score = queryParams.get("score");
+  document.getElementsByClassName("score")[0].innerText = score;
+
   const name = queryParams.get("name");
   document.getElementsByClassName("name")[0].innerText = name;
   const random = queryParams.get("random");
