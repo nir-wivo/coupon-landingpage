@@ -555,7 +555,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
   .icons{
     display: flex;
     color: black;
-    gap: 10px;
+    gap: 14px;
     justify-content: center;
     align-items: center;
     height: 45px;
@@ -566,7 +566,7 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
   }
  
   .whatapp{
-    margin-top: 5px;
+    color:white !important;
   }
   .save{
     background: transparent;
@@ -672,9 +672,17 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
     #smallLink{
       font-size: 14px !important;
     }
-    .facebook{
-      margin-top: 15px;
-    }
+
+a.whatapp {
+  color:white !important;
+  text-decoration:none;
+}
+
+element.style {
+}
+
+
+
     .whatapp{
       margin-top: 15px;
     }
@@ -701,4 +709,17 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
 
 img.gift-card {
     max-width: 250px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 25px !important;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a.facebook {
+    color: white;
 }
