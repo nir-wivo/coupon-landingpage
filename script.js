@@ -4,6 +4,5 @@ function addDynamicLink() {
     document.getElementsByClassName("score")[0].innerText = score;
     const name = queryParams.get("name");
     document.getElementsByClassName("name")[0].innerText = name;
-
   }
   addDynamicLink();
