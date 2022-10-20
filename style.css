@@ -88,7 +88,25 @@ width: 50%;
   cursor: pointer;
 
 }
+.btn{
+  border: 10px solid;
+  border-image-slice: 1;
+  background-color: rgba(0, 0, 0, 0.527);
+  font-size: 30px;
+  padding: 10px;
+  border-width: 3px !important;
+  border-image-source: linear-gradient(0deg, #bd12ff, #0af9df);
+  animation: animatename 1.5s infinite;
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px #0af9df59;
+}
+.btn:hover{
+  background-color: black;
+  color: rgba(255, 255, 255, 0.8);
+  scale: 0.95;
+  box-shadow: 0px 0px 30px #0af9df59;
 
+}
 .coupon{
   font-weight: bold;
   margin: 20px 0;
