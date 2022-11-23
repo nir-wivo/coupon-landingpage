@@ -25,6 +25,7 @@
   max-width: 100%;
   padding: 20px;
   margin: 0px;
+  border-radius: 10px 10px 0 0;
 
   background-color: #c1d832;
 
@@ -56,6 +57,7 @@
   background-color: rgba(255, 255, 255, 0.973);
   color: black;
   padding: 020px;
+  border-radius: 0 0 10px 10px;
   outline: 7px solid rgba(0, 0, 0, 0.151);
 
 }
