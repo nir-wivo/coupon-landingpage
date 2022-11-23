@@ -26,13 +26,13 @@
   padding: 20px;
   margin: 0px;
   border-radius: 10px 10px 0 0;
-
   background-color: #c1d832;
 
 
 }
 .card{
   width: 600px;
+
   outline: 5px solid rgba(255, 255, 255, 0.178);
   height: 100vh;
   box-shadow: 0 0 100px rgb(0 0 0 / 90%);
@@ -48,15 +48,19 @@
 .title{
   font-size: 35px;
   color: black;
+  animation: scale 0.5s forwards;
+
 }
 .subtitle{
   font-size: 15px;
+  
   color: black;
 }
 .product{
   background-color: rgba(255, 255, 255, 0.973);
   color: black;
   padding: 020px;
+  
   border-radius: 0 0 10px 10px;
   outline: 7px solid rgba(0, 0, 0, 0.151);
 
@@ -67,9 +71,7 @@ color: black;
 }
 .coupon{
   color: #037050;
-  
-  animation: scale 1s infinite alternate;
-
+  animation: scale 1s forwards;
   font-size: 40px;
 }
 img{
@@ -81,6 +83,8 @@ width: 50%;
   color: black;
   font-weight: bold;
   margin-top: 10px;
+  animation: scale 0.7s forwards;
+
 }
 .websiteLink{
   color: black;
@@ -325,7 +329,7 @@ width: 50%;
   }
 
   @keyframes scale {
-    to{
-      scale: 0.95;
+    from{
+      scale: 0;
     }
   }
