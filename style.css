@@ -21,8 +21,12 @@
   border-radius: 40px;
   object-fit: contain;
 }
+.inner{
+  width: 400px;
+}
 .logo{
   max-width: 100%;
+  width: 90%;
   padding: 20px;
   margin: 0px;
   border-radius: 10px 10px 0 0;
@@ -123,6 +127,11 @@ width: 50%;
       font-size: 18px;
 
   }
+  .inner {
+    width: 302px;
+    max-width: 90%;
+    scale: 0.9;
+}
   .logo{
     width: 100%;
     max-width: 340px;
@@ -139,6 +148,9 @@ width: 50%;
   img{
       margin: 5px 0px;
       width: 50%;
+  }
+  .coupon{
+    font-size: 30px;
   }
 }
 
