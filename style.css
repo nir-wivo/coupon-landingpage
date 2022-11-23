@@ -52,7 +52,6 @@
   color: black;
   padding: 20px;
   outline: 7px solid rgba(0, 0, 0, 0.151);
-  border-radius: 20px;
 }
 .coupontitle{
   font-size: 20px;
@@ -96,8 +95,7 @@ width: 50%;
 @media only screen and (max-width: 600px) {
   .card{
     min-height: auto;
-    padding: 30px 10px;
-    margin: 10px 10px;
+
   }
   .title {
     font-size: 20px;
@@ -108,7 +106,7 @@ width: 50%;
 
   }
   .logo{
-    width: 60%;
+    width: 100%;
   }
   .subtitle{
       font-size: 13px;
