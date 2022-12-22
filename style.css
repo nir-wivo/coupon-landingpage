@@ -85,7 +85,6 @@ width: 50%;
   .card{
     margin: 10px 10px;
     justify-content: start !important;
-    min-height: 80vh;
   }
   .title {
     font-size: 40px;
