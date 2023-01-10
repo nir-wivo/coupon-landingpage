@@ -8,7 +8,7 @@ function addDynamicLink() {
 
 
   const countToDate = new Date();
-  countToDate.setDate(date.getDate()+5)
+  countToDate.setDate(countToDate.getDate() + 1)
 let previousTimeBetweenDates
 setInterval(() => {
   const currentDate = new Date()
