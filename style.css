@@ -35,7 +35,7 @@
 }
 .button{
   margin-top: 50px;
-  background: red;
+  background: rgb(17, 47, 180);
   width: 50%;
   padding: 20px 0 ;
   border-radius: 8px;
@@ -51,7 +51,7 @@
 
 }
 img{
-width: 50%;
+width: 100%;
 }
 .content{
   font-size: 20px;
