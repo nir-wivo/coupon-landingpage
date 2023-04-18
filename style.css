@@ -185,8 +185,9 @@ filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.185));
         width: 100%;
         text-align: center;
     }
-    .smalltitle{
-        font-size: 30px !important;
+    .smalltitle {
+        font-size: 25px !important;
+        text-align: center;
     }
     .section{
         background-size: cover;
