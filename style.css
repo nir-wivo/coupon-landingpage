@@ -47,6 +47,11 @@ body{
     z-index: 99999999;
     animation: scale 1.3s infinite;
 }
+.reward2{
+    transition: 0.5s;
+    z-index: 99999999;
+    cursor: pointer;
+}
 
 .logo{
     width: 300px;
